@@ -1,0 +1,322 @@
+/* Modal */
+#findCountryModal {
+    margin-top: 10% !important;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.modal-header, .modal-footer {
+    border: none !important;
+}
+
+#btn-find, #search, #OpenVimeoChannel {
+  color: white;
+  font-size: 1.15rem;
+  padding: 0.5rem 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: black;
+}
+
+/* Small Images */
+
+.sm-image {
+  flex: wrap;
+  margin: 1rem 1rem;
+  min-height: 345px;
+  border: 1px white solid;
+  border-radius: 1rem;
+  transition: all .5s ease-in-out;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sm-image:hover {
+  transform: scale(1.1);
+}
+
+/* FONTS/TEXT */
+#search, #country, #capital, th {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  color: black;
+}
+
+.navbar-brand:hover {
+  color: black;
+} 
+
+.nav-link, #OpenYouTubeChannel {
+    font-size: 1.1rem;
+}
+
+.nav-link, a, #city, #country, p {
+    color: black;
+}
+
+.nav-link a:hover {
+    color: black;
+    border-bottom: 0.3px solid black;
+}
+
+#country {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#capital {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#country-flag {
+  margin: auto;
+  border-radius: 10px !important;
+  width: 250px;
+  height: auto;
+  transition: all .4s ease-in-out;
+}
+
+#country-flag:hover{
+  transform: scale(1.06);
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+/* MAIN */
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body, .container-fluid, #main-row, #main-right, #bg-img, #bg-img-content {
+    height: 100%;
+    width: 100%;
+}
+
+#main-left{
+  width: 100%;
+  height: 60%;
+}
+
+#main-left, #main-right {
+    border-top-left-radius: 0.9rem;
+    border-bottom-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.9rem;
+}
+
+#main-right, #main-left {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* NAVBARS */
+
+#left-content-card {
+    text-align: center;
+}
+
+#nav-left {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  border-bottom: dotted 1px rgba(175, 175, 175, 0.445);
+}
+
+#card-left {
+  border: none;
+  background-color: white;
+  opacity: 0.8;
+}
+
+#btn-find {
+    background-color: black;
+}
+
+/* TABLE */
+#country-info {
+    background-color: white;
+}
+
+th {
+    font-size: 0.6rem;
+    color:black;
+    max-width: 62x;
+}
+
+.navbar-nav, .nav-item {
+    width: 100%;
+    text-align: center;
+}
+
+/* Small */
+
+@media (min-width: 576px) and (max-width: 767.98px){
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  #search {
+    font-size: 1.5rem;
+  }
+
+  #country {
+      font-size: 5.2rem;
+  }
+
+  #capital {
+      font-size: 2rem;
+  }
+
+  #country-flag {
+    width: 200px;
+  }
+
+  th {
+    font-size: 1.3rem;
+    color:black;
+  }
+
+  .card-text {
+      font-size: 1.8rem;
+  }
+
+  #main-row {
+    background-color: white;
+  }
+
+  .sm-image:hover {
+    transform: none;
+  }
+} 
+
+/* Medium */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-brand {
+    font-size: 3.7rem;
+  }
+
+  #search {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  #country {
+      font-size: 5.4rem;
+  }
+
+  #capital {
+      font-size: 3rem;
+  }
+
+  #country-flag {
+    width: 500px;
+  }
+
+  th {
+      font-size: 1.3rem;
+      color:black;
+  }
+
+  #main-row {
+    background-color: white;
+  }
+
+  #main-left{
+    width: 100%;
+    height: 90%;
+  }
+
+  .sm-image:hover {
+    transform: none;
+  }
+}
+
+/* Large */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-brand {
+    font-size: 5rem;
+  }
+
+  #search {
+    font-size: 2rem;
+  }
+
+  #country {
+      font-size: 8rem;
+  }
+
+  #capital {
+      font-size: 5rem;
+  }
+
+  #country-flag {
+    width: 600px;
+  }
+
+  th {
+      font-size: 1.8rem;
+      color:black;
+  }
+
+  #main-row {
+    background-color: white;
+  }
+  #main-left{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  #search {
+    font-size: 1rem;
+  }
+
+  #country {
+      font-size: 5rem;
+      /* margin-top: 3rem; */
+  }
+
+  #capital {
+      font-size: 3.2rem;
+  }
+
+  #country-flag {
+    width: 200px;
+  }
+
+  th {
+      font-size: 1.5rem;
+      color:black;
+  }
+  #main-left{
+    width: 100%;
+    height: 56%;
+  }
+}
+
