@@ -24,7 +24,7 @@ document.getElementById('btn-find').addEventListener('click', function(e){
   //Close Modal
   $('#findCountryModal').modal('hide');
 
-   //Clear Field
+   //Clear Everything
    document.getElementById('enter-country').value = '';
 });
 
